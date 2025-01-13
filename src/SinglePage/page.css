@@ -1,0 +1,154 @@
+/* .back {
+  position: absolute;
+  right: 8%;
+  top: -70px;
+}
+.single-page {
+  position: relative;
+}
+
+.main-content p {
+  margin: 10px 0 20px 0;
+  color: grey;
+}
+.main-content .para p {
+  margin-right: 10px;
+}
+.main-content h1 {
+  font-size: 30px;
+}
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+
+article .box-single {
+  background-color: #fe8432;
+  padding: 30px;
+  color: white;
+}
+article .box-single h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+article .box-single2 {
+  margin-top: 40px;
+  background: url("../../public/images/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+article .box-single2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 180px;
+  width: 100%;
+}
+article p {
+  font-size: 14px;
+  line-height: 25px;
+}
+article .box-single2 p {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  font-size: 14px;
+  line-height: 25px;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .single-page .flex {
+    flex-direction: column;
+  }
+} */
+
+
+/* page.css */
+
+/* Style pour la section contenant la page unique */
+.single-page {
+  padding: 50px 0;
+}
+
+/* Style pour le conteneur de la page */
+.container-single {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Style pour le bouton de retour */
+.primary-btn.back {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn.back:hover {
+  background-color: #ff7f50;
+}
+
+/* Style pour le contenu principal */
+.main-content {
+  flex: 2;
+}
+
+/* Style pour les images dans le contenu principal */
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Style pour le contenu supplémentaire dans le contenu principal */
+.main-content p {
+  margin-bottom: 20px;
+}
+
+/* Style pour le contenu supplémentaire dans la boîte latérale */
+.side-content {
+  flex: 1;
+}
+
+/* Style pour la boîte latérale */
+.box-single {
+  background-color: #1ea5d6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Style pour le titre dans la boîte latérale */
+.box-single h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Style pour le paragraphe dans la boîte latérale */
+.box-single p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Style pour le bouton de contact dans la boîte latérale */
+.outline-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.outline-btn:hover {
+  background-color: #fff;
+  color: #1ea5d6;
+}
